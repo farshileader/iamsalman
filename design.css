@@ -1,0 +1,56 @@
+
+#skills {
+    text-align: center;
+  }
+  
+  .skills-title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .designs {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .design {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .design-image {
+    max-width: 600px; 
+    max-height: 600px; 
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .design:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text h3,
+  .text p {
+    margin: 0;
+  }
+  

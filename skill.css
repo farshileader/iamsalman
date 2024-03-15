@@ -1,0 +1,38 @@
+.skill-list {
+    list-style: none;
+    padding: 30;
+    margin: 30;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #740000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .skill-item:hover {
+    background-color: #0099ff;
+  }
+  .skills-header{
+    margin-left: 49px;
+  }
+  .skills-title {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 44px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+    text-align: center; /* Center the text horizontally */
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .skills-title:hover {
+    background-color: #7760f5bd; /* Example hover color */
+  }
+  

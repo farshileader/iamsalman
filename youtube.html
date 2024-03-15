@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOHAMMAD SALMAN</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="skill.css">
+  <style>
+    #youtube-link {
+      color: rgb(255, 255, 255); 
+      text-decoration: none; 
+      font-size: x-large;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative; 
+      display: inline-block; 
+    }
+    #youtube-link:hover::after {
+      content: attr(data-description); 
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #357afa; 
+      padding: 10px; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+      z-index: 1; 
+      max-width: 400px; 
+      text-align: center;
+    }
+    #youtube-logo {
+      padding: 10px;
+      margin-left: 18%;
+      vertical-align: middle; 
+      margin-right: 5px; 
+      width: 80%; 
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+  </header>
+  <section id="skills">
+    <span class="skills-title">My YouTube Channel:</span>
+    <a href="https://www.youtube.com/@mathematicsitbynotredamian1945" id="youtube-link" data-description="Check out my YouTube Channel!">
+      <img src="yt.logo.png" alt="YouTube Logo" id="youtube-logo">
+    </a>
+  </section>
+  <br><br>
+  <footer id="footer">
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* education.css */
+
+/* Set margin for the section */
+#education {
+    margin-top: 20px;
+    padding: 0.5%;
+}
+
+/* Style the heading */
+#education h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the table */
+#education table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style table header */
+#education th {
+    background-color: #55cdf1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+/* Style table cells */
+#education td {
+    border: 1px solid #5a4fee;
+    font-weight: bold;
+    color: #3b33af;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+/* Hover effect on table rows */
+#education tbody tr:hover {
+    background-color: #8a8be7;
+}
+
+/* Adjust table cell alignment on small screens */
+@media (max-width: 576px) {
+    #education th, #education td {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
